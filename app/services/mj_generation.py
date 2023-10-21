@@ -1,8 +1,11 @@
 from app.services.translation import translate_to_english
 import app.utils.mj as mj
 import os
+from dotenv import load_dotenv
 
-mj_api_key = os.environ['MJ_API_KEY']
+load_dotenv()
+
+mj_api_key = os.getenv('MJ_API_KEY')
 
 
 def avatar_create(text):
