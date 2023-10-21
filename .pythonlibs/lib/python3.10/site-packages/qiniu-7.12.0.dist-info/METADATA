@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: qiniu
+Version: 7.12.0
+Summary: Qiniu Resource Storage SDK
+Home-page: https://github.com/qiniu/python-sdk
+Author: Shanghai Qiniu Information Technologies Co., Ltd.
+Author-email: sdk@qiniu.com
+Maintainer-email: support@qiniu.com
+License: MIT
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+Requires-Dist: requests (<2.28) ; python_version < "3.7"
+Requires-Dist: futures ; python_version == "2.7"
+Requires-Dist: requests ; python_version >= "3.7"
+Provides-Extra: dev
+Requires-Dist: coverage (<7.2) ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: freezegun ; extra == 'dev'
+Requires-Dist: scrutinizer-ocular ; extra == 'dev'
+Requires-Dist: codecov ; extra == 'dev'
+
+see:
+https://github.com/qiniu/python-sdk

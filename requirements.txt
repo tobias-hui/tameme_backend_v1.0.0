@@ -1,0 +1,10 @@
+numpy
+qiniu
+requests
+openai
+pillow 
+replicate
+fastapi
+pydantic
+uvicorn
+python-multipart
