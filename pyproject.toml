@@ -14,6 +14,10 @@ pillow = "^10.0.1"
 pydantic = "^2.4.2"
 qiniu = "^7.12.0"
 python-dotenv = "^1.0.0"
+transformers = "4.27.1"
+torch = ">1.10.0"
+torchvision = "^0.16.0"
+mdtex2html = "^1.2.0"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md
